@@ -1,3 +1,7 @@
+#Sherryl Ann Pereira
+#The purpose of kippojsonfeeds is to log events provided by Kippo honeypot in a JSON format via HTTP-POST to an HTTPS server. 
+#This module is developed for the TraCINg project but could be used to post to a custom server.
+
 from twisted.enterprise import adbapi
 from twisted.internet import defer
 from twisted.python import log
